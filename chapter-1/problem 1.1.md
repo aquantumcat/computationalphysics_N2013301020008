@@ -27,6 +27,8 @@ plt.xlabel("t(s)")
 plt.ylabel("v(m/s)")
 show()
 </code></pre>
+图片如下
+![](https://github.com/aquantumcat/computationalphysics_N2013301020008/blob/master/chapter-1/exercise1.1.png)
 
 ##结论
 Euler方法对于解决这种简单的方程，非常方便准确。同时也学习到了用python做图的方法。
