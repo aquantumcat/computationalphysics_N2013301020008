@@ -1,0 +1,22 @@
+from pylab import * 
+import pickle 
+
+v = []
+t = []
+g = -9.8
+dt = 0.1
+v.append(0)
+t.append(0)
+end_time = 10
+
+for i in range(int(end_time / dt)):
+	tmp = v[i] + g * dt
+	v.append(tmp)
+	t.append(dt * (i + 1))
+	print t[-1], v[-1]
+
+plot(t,v)
+plt.title("1.1_v-t")
+plt.xlabel("t(s)")
+plt.ylabel("v(m/s)")
+show()
